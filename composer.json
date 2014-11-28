@@ -1,9 +1,9 @@
 {
-    "name": "cyrgit/SuperClosure",
+    "name": "cyrgit/cacheable-closure",
     "type": "library",
     "description": "Doing interesting things with closures like serialization.",
     "keywords": ["closure", "serialize", "serializable", "function", "parser", "tokenizer"],
-    "homepage": "https://github.com/jeremeamia/super_closure",
+    "homepage": "https://github.com/cyrgit/cacheable-closure",
     "license": "MIT",
     "authors": [
         {
