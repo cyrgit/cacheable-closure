@@ -1,3 +1,3 @@
 # cacheable-closure
 
-[![Build Status](https://travis-ci.org/cyrgit/cheable-closure.svg?branch=multiple-parsers)][2]
+[![Build Status](https://travis-ci.org/cyrgit/cacheable-closure.svg?branch=multiple-parsers)]
