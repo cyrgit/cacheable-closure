@@ -1,11 +1,11 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Test\Visitor;
+namespace Cyrgit\CacheableClosure\Test\Visitor;
 
-use Jeremeamia\SuperClosure\Visitor\ClosureFinderVisitor;
+use Cyrgit\CacheableClosure\Visitor\ClosureFinderVisitor;
 
 /**
- * @covers Jeremeamia\SuperClosure\Visitor\ClosureFinderVisitor
+ * @covers Cyrgit\CacheableClosure\Visitor\ClosureFinderVisitor
  */
 class ClosureFinderVisitorTest extends \PHPUnit_Framework_TestCase
 {

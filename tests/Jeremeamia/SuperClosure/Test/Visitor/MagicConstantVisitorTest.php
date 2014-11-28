@@ -1,12 +1,12 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Test\Visitor;
+namespace Cyrgit\CacheableClosure\Test\Visitor;
 
-use Jeremeamia\SuperClosure\Visitor\MagicConstantVisitor;
-use Jeremeamia\SuperClosure\ClosureLocation;
+use Cyrgit\CacheableClosure\Visitor\MagicConstantVisitor;
+use Cyrgit\CacheableClosure\ClosureLocation;
 
 /**
- * @covers Jeremeamia\SuperClosure\Visitor\MagicConstantVisitor
+ * @covers Cyrgit\CacheableClosure\Visitor\MagicConstantVisitor
  */
 class MagicConstantVisitorTest extends \PHPUnit_Framework_TestCase
 {

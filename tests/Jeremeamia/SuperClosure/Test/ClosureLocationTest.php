@@ -1,8 +1,8 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Test;
+namespace Cyrgit\CacheableClosure\Test;
 
-use Jeremeamia\SuperClosure\ClosureLocation;
+use Cyrgit\CacheableClosure\ClosureLocation;
 
 class ClosureLocationTest extends \PHPUnit_Framework_TestCase
 {

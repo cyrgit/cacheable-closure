@@ -1,9 +1,9 @@
 <?php
 
-namespace Jeremeamia\SuperClosure;
+namespace Cyrgit\CacheableClosure;
 
-use Jeremeamia\SuperClosure\Visitor\ClosureFinderVisitor;
-use Jeremeamia\SuperClosure\Visitor\MagicConstantVisitor;
+use Cyrgit\CacheableClosure\Visitor\ClosureFinderVisitor;
+use Cyrgit\CacheableClosure\Visitor\MagicConstantVisitor;
 
 /**
  * Parses a closure from its reflection such that the code and used (closed upon) variables are accessible. The

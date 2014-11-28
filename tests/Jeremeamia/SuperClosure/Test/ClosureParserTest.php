@@ -1,14 +1,14 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Test;
+namespace Cyrgit\CacheableClosure\Test;
 
-use Jeremeamia\SuperClosure\ClosureParser;
+use Cyrgit\CacheableClosure\ClosureParser;
 
 class ClosureParserTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::__construct
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::getReflection
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::__construct
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::getReflection
      */
     public function testCanGetReflectionBackFromParser()
     {
@@ -20,17 +20,17 @@ class ClosureParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::fromClosure
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::fromClosure
      */
     public function testCanUseFactoryMethodToCreateParser()
     {
         $parser = ClosureParser::fromClosure(function () {});
 
-        $this->assertInstanceOf('Jeremeamia\SuperClosure\ClosureParser', $parser);
+        $this->assertInstanceOf('Cyrgit\CacheableClosure\ClosureParser', $parser);
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::__construct
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::__construct
      */
     public function testRaisesErrorWhenNonClosureIsProvided()
     {
@@ -41,7 +41,7 @@ class ClosureParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::getCode
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::getCode
      */
     public function testCanGetCodeFromParser()
     {
@@ -54,7 +54,7 @@ class ClosureParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::getUsedVariables
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::getUsedVariables
      */
     public function testCanGetUsedVariablesFromParser()
     {
@@ -69,11 +69,11 @@ class ClosureParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::clearCache
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::clearCache
      */
     public function testCanClearCache()
     {
-        $parserClass = 'Jeremeamia\SuperClosure\ClosureParser';
+        $parserClass = 'Cyrgit\CacheableClosure\ClosureParser';
 
         $p = new \ReflectionProperty($parserClass, 'cache');
         $p->setAccessible(true);
@@ -87,8 +87,8 @@ class ClosureParserTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::getClosureAbstractSyntaxTree
-     * @covers \Jeremeamia\SuperClosure\ClosureParser::getFileAbstractSyntaxTree
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::getClosureAbstractSyntaxTree
+     * @covers \Cyrgit\CacheableClosure\ClosureParser::getFileAbstractSyntaxTree
      */
     public function testCanGetClosureAst()
     {

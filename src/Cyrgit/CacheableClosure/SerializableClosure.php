@@ -1,6 +1,6 @@
 <?php
 
-namespace Jeremeamia\SuperClosure;
+namespace Cyrgit\CacheableClosure;
 
 /**
  * This class allows you to do the impossible - serialize closures! With the combined power of the nikic/php-parser

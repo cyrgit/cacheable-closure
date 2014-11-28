@@ -1,11 +1,11 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Test;
+namespace Cyrgit\CacheableClosure\Test;
 
-use Jeremeamia\SuperClosure\SerializableClosure;
+use Cyrgit\CacheableClosure\SerializableClosure;
 
 /**
- * @covers \Jeremeamia\SuperClosure\SerializableClosure
+ * @covers \Cyrgit\CacheableClosure\SerializableClosure
  */
 class SerializableClosureTest extends \PHPUnit_Framework_TestCase
 {

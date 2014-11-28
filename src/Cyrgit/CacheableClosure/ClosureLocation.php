@@ -1,6 +1,6 @@
 <?php
 
-namespace Jeremeamia\SuperClosure;
+namespace Cyrgit\CacheableClosure;
 
 /**
  * Simple object for storing the location information of a closure (e.g., file, class, etc.)

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Visitor;
+namespace Cyrgit\CacheableClosure\Visitor;
 
-use Jeremeamia\SuperClosure\ClosureLocation;
+use Cyrgit\CacheableClosure\ClosureLocation;
 use PHPParser_Node_Scalar_LNumber as NumberNode;
 use PHPParser_Node_Scalar_String as StringNode;
 

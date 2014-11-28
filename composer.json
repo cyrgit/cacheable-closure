@@ -15,6 +15,6 @@
         "nikic/php-parser": "~0.9"
     },
     "autoload": {
-        "psr-0": { "Jeremeamia\\SuperClosure": "src/" }
+        "psr-0": { "Cyrgit\\CacheableClosure": "src/" }
     }
 }

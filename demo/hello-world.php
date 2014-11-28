@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Jeremeamia\SuperClosure\SerializableClosure;
+use Cyrgit\CacheableClosure\SerializableClosure;
 
 $greeting = 'Hello';
 $helloWorld = new SerializableClosure(function ($name = 'World') use ($greeting) {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Jeremeamia\SuperClosure\Visitor;
+namespace Cyrgit\CacheableClosure\Visitor;
 
-use Jeremeamia\SuperClosure\ClosureLocation;
+use Cyrgit\CacheableClosure\ClosureLocation;
 
 /**
  * This is a visitor that extends the nikic/php-parser library and looks for a closure node and its location
